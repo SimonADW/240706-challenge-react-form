@@ -95,3 +95,7 @@
 		flex-direction: row;
 	}
 }
+
+.contactForm p {
+	color: var(--tercary-color);
+}
