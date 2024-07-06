@@ -1,4 +1,3 @@
-import React from 'react'
 import style from "./ContactForm.module.css"
 
 const ContactForm = () => {
@@ -22,15 +21,17 @@ const ContactForm = () => {
 				<input type="email" />
 			</div>
 
-			<div className={`${style.inputLabelPair} ${style.queryContainer}`}>
-			<label htmlFor="query">Query Type <sup>*</sup></label>
-				<div className={style.radioAndLabel}>
-					<input type="radio" name="query" />
-					<label htmlFor="generalEnquery">General Enquiry</label>
-				</div>
-				<div className={style.radioAndLabel}>
-					<input type="radio" name="query" />
-					<label htmlFor="supportRequest">Support Request</label>
+			<div>
+				<label className={style.queryMainLabel} htmlFor="query">Query Type <sup>*</sup></label>
+				<div className={`${style.inputLabelPair} ${style.queryContainer}`}>
+					<div className={style.radioAndLabel}>
+						<input type="radio" name="query" />
+						<label htmlFor="generalEnquery">General Enquiry</label>
+					</div>
+					<div className={style.radioAndLabel}>
+						<input type="radio" name="query" />
+						<label htmlFor="supportRequest">Support Request</label>
+					</div>
 				</div>
 			</div>
 
