@@ -1,0 +1,14 @@
+
+
+:root {	
+	/* - Green 200 (lighter): */
+	--primary-color: hsl(148, 38%, 91%);
+	/* - Green 600 (medium):  */
+	--secondary-color: hsl(169, 82%, 27%);
+	/* - Red: */
+	--tercary-color: hsl(0, 66%, 54%);
+
+	--neutral-color: hsl(0, 0%, 100%);
+	--font-color-medium: hsl(186, 15%, 59%);
+	--font-color-darker: hsl(187, 24%, 22%);
+}

@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Karla";
+  src: 
+  local("Karla"),
+  url(../contact-form-main/assets/fonts/Karla-Italic-VariableFont_wght.ttf) format("truetype");
+}
+
+#root {
+  min-height: 100vh;
+  font-size: 16px;    
+
+  display: flex;
+  background: var(--primary-color);
+}
