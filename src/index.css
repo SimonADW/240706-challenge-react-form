@@ -2,10 +2,11 @@
   font-family: "Karla";
   src: 
   local("Karla"),
-  url(../contact-form-main/assets/fonts/Karla-Italic-VariableFont_wght.ttf) format("truetype");
+  url(../contact-form-main/assets/fonts/Karla-VariableFont_wght.ttf) format("truetype");
 }
 
 #root {
+  font-family: "Karla";
   min-height: 100vh;
   font-size: 16px;    
 

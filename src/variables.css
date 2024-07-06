@@ -11,4 +11,6 @@
 	--neutral-color: hsl(0, 0%, 100%);
 	--font-color-medium: hsl(186, 15%, 59%);
 	--font-color-darker: hsl(187, 24%, 22%);
+
+	--form-border-radius: 0.5rem;
 }

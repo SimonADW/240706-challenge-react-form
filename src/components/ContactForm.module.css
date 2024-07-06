@@ -1,28 +1,82 @@
 .contactForm {
-	width: 50%;
+	width: 95%;
 
 	display: flex;
 	flex-direction: column;
 	gap: 1rem;
 
-	margin: 0 auto;
-	border-radius: 0.5rem;
+	padding: 1.5rem;
+	margin: 1rem auto;
+	border-radius: var(--form-border-radius);
+	color: var(--font-color-darker);
 	background: var(--neutral-color);
 }
 
-.contactForm > div,
-.contactForm > label {
-	align-self: flex-start;
+.nameContainer,
+.queryContainer {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
 }
 
-.inputTwoColumn {
-	display: flex;	
+.queryContainer > div label {
+	font-size: 18px;
 }
 
-.inputOneColumn {
+.inputLabelPair {
 	width: 100%;
 
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+}
+
+.contactForm input[type="text"],
+.contactForm input[type="email"],
+.contactForm textarea {
+	width: 100%;
+	border: 1px solid var(--font-color-darker);
+	border-radius: var(--form-border-radius);
+	padding: 0.5rem;
+}
+
+.contactForm input[type="text"],
+.contactForm input[type="email"] {
+	height: 3rem;
+}
+
+.contactForm textarea {
+	resize: none;
+}
+
+
+.radioAndLabel {
+	height: 3rem;
+	width: 100%;
+
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+
+	padding: 1rem;
+	border: 1px solid var(--font-color-darker);
+	border-radius: var(--form-border-radius);
+}
+
+.checkboxContainer {
+	display: flex;
+	gap: 1rem;
+}
+
+.checkboxContainer input  {
+	border-radius: 0px;
+}
+
+.contactForm button {
+	height: 3rem;
+	width: 100%;
+	border-radius: var(--form-border-radius);
+	font-weight: bold;
+	color: var(--primary-color);
+	background: var(--secondary-color);
 }
